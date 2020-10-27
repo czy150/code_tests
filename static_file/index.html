@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <title>首页</title>
+    <! --一般来说，不会吧css样式写在这里，会单独卸载static文件夹，用css文件存放所需的样式，flask默认从static中寻找-->
+    <! --再通过url__for('static', filename = '文件路径')的形式引入到这里来>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+    <script src="{{url_for('static',filename='js/index.js')}}"></script>
+</head>
+<body>
+    <a href="{{url_for('login')}}">登录</a><!--点击登陆后，就跳到login.html页面中-->
+    <img src="{{url_for('static, filename='image/zhiliao.png')}}" alt="">
+</body>
+</html>
