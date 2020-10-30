@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Gothons Of Planet Percal #25</title>
+    </head>
+    <body>
+
+    {% if greeting %}
+        I just want to say
+        <em style="color: green;font-size: 2em;">{{greeting}}</em>
+        <a style="color:darkred;font-size:xx-large;" href="http://127.0.0.1:5000/hello">点此返回表单页面</a>
+        <hr>
+        <img src="{{url_for('static', filename='image/god.jpg')}}" alt="sb" width="20%" height="50%">
+    {% else %}
+        <em>Hello</em>,world!
+    {% endif %}
+    </body>
+</html>
