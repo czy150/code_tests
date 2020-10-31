@@ -94,7 +94,7 @@ start.add_paths({'west':west, 'down': down})
 >> 也可以使用变量，和高级链接一样的方法  
 >> 到目前为止， Markdown 还没有办法指定图片的宽高，如果你需要的话，你可以使用普通的 \<img\> 标签  
 
-<img src=" " >  
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1604128325467&di=7bdd84728e3b1a13bb41d5c3d55c2988&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2018-12-19%2F5c1a02938ed6e.jpg" alt="动漫">>  
 
 ## 表格
 使用(|)来分隔不同的单元格，使用(-)分隔表头和其他行
