@@ -22,6 +22,7 @@ ________
 <u>下划线是和HTML一样的标签方法,用的是u<u>
 
 ## 创建脚注
+[^脚注]是要把光标移到上面才能看到
 [^脚注]: 脚注是这样标记的，可以把光标移到上面。
 
 ## 列表
@@ -91,8 +92,9 @@ start.add_paths({'west':west, 'down': down})
     
 > ![背景图片](https://desk-fd.zol-img.com.cn/t_s1920x1080c5/g5/M00/02/02/ChMkJ1bKxXKINmaMACMkdGofwOEAALHWAHFrGQAIySM530.jpg "动漫")  
 >> 也可以使用变量，和高级链接一样的方法  
->> 到目前为止， Markdown 还没有办法指定图片的宽高，如果你需要的话，你可以使用普通的 \<img\> 标签
-<img src="https://desk-fd.zol-img.com.cn/t_s1920x1080c5/g5/M00/02/02/ChMkJ1bKxXKINmaMACMkdGofwOEAALHWAHFrGQAIySM530.jpg " width="50%">  
+>> 到目前为止， Markdown 还没有办法指定图片的宽高，如果你需要的话，你可以使用普通的 \<img\> 标签  
+
+<img src="https://desk-fd.zol-img.com.cn/t_s1920x1080c5/g5/M00/02/02/ChMkJ1bKxXKINmaMACMkdGofwOEAALHWAHFrGQAIySM530.jpg " >  
 
 ## 表格
 使用(|)来分隔不同的单元格，使用(-)分隔表头和其他行
