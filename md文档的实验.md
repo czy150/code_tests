@@ -29,15 +29,15 @@ ________
 * 可以用三种符号加空格再填写内容
 * 三种符号是*、+、-
 
-1.有序列表
-2.用数字加.表示
-3.第三项
+1. 有序列表
+2. 用数字加.表示
+3. 第三项
 
 ### 嵌套列表
-1.第一项:
+1. 第一项:
     - 在子列表的选项前加上四个空格
     - 第一项第二个元素
-2.第二项
+2. 第二项
     1.第二项第一个嵌套元素
     2.第二个嵌套元素
     
@@ -48,11 +48,11 @@ ________
 
 ### 列表和区块组合  
 > 区块中用列表
-> 1.第一项
-> 2.在列表的后面加上列表的表示符号
+> 1. 第一项
+> 2. 在列表的后面加上列表的表示符号
 > * 一行一个大于号，一个列表符号
 
-1.列表中用区块
+1. 列表中用区块
     > 区块符号前加上四个空格
     
 ## 代码
@@ -91,8 +91,8 @@ start.add_paths({'west':west, 'down': down})
     
 > ![背景图片](https://desk-fd.zol-img.com.cn/t_s1920x1080c5/g5/M00/02/02/ChMkJ1bKxXKINmaMACMkdGofwOEAALHWAHFrGQAIySM530.jpg "动漫")  
 >> 也可以使用变量，和高级链接一样的方法  
->> 到目前为止， Markdown 还没有办法指定图片的宽高，如果你需要的话，你可以使用普通的 <img> 标签
-> <img src="https://desk-fd.zol-img.com.cn/t_s1920x1080c5/g5/M00/02/02/ChMkJ1bKxXKINmaMACMkdGofwOEAALHWAHFrGQAIySM530.jpg " width="50%">  
+>> 到目前为止， Markdown 还没有办法指定图片的宽高，如果你需要的话，你可以使用普通的 \<img\> 标签
+<img src="https://desk-fd.zol-img.com.cn/t_s1920x1080c5/g5/M00/02/02/ChMkJ1bKxXKINmaMACMkdGofwOEAALHWAHFrGQAIySM530.jpg " width="50%">  
 
 ## 表格
 使用(|)来分隔不同的单元格，使用(-)分隔表头和其他行
