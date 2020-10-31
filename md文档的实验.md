@@ -106,9 +106,9 @@ start.add_paths({'west':west, 'down': down})
 * :- 设置内容和标题栏居左对齐
 * :-: 设置内容和标题栏居中对齐
 
-## 高级技巧
+## 高级技巧    
 > 不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。
-> 目前支持的 HTML 元素有：(<kbd> <b> <i> <em> <sup> <sub> <br>)等 
+> 目前支持的 HTML 元素有：<kbd> <b> <i> <em> <sup> <sub> <br>等
 > 和处在 HTML 区块标签间不同，Markdown 语法在 HTML 区段标签间是有效的。
 
 
