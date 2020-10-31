@@ -80,12 +80,13 @@ start.add_paths({'west':west, 'down': down})
 <https://github.com/czy150>  
 
 ### 高级链接
-可以用变量给设置一个链接，变量赋值在文档末尾
-    用[czy]作为网址变量 [我的主页][czy]  
-[czy]: https://github.com/czy150
+可以用变量给设置一个链接，变量赋值在文档末尾  
+用[2]作为网址变量  
+[我的主页][2]  
+
 
 ## 图片
-图片的格式：
+图片的格式：  
 ![alt 属性文本]\(图片地址)  
 ![alt 属性文本]\(图片地址 "可选标题")
     
@@ -113,6 +114,7 @@ start.add_paths({'west':west, 'down': down})
 
 
 [^1]: 脚注是这样标记的，可以把光标移到上面。
+[2]: https://github.com/czy150
 
 
 
