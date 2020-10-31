@@ -72,9 +72,9 @@ start.add_paths({'west':west, 'down': down})
 ```
 
 ## 链接
-    [链接名称](链接地址)
+    \[链接名称]\(链接地址)
     或者
-    <链接地址>
+    \<链接地址>
 例如这是[我的github](https://github.com/czy150)  
 或者
 <https://github.com/czy150>  
