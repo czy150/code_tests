@@ -72,23 +72,23 @@ start.add_paths({'west':west, 'down': down})
 ```
 
 ## 链接
-    \[链接名称]\(链接地址)
+    [链接名称](链接地址)
     或者
-    \<链接地址>
+    <链接地址>
 例如这是[我的github](https://github.com/czy150)  
 或者
 <https://github.com/czy150>  
 
 ### 高级链接
 可以用变量给设置一个链接，变量赋值在文档末尾
-    用[czy]作为网址变量[我的主页][czy]
+    用[czy]作为网址变量 [我的主页][czy]
     
     [czy]: https://github.com/czy150
 
 ## 图片
 图片的格式：
-    ![alt 属性文本](图片地址)
-    ![alt 属性文本](图片地址 "可选标题")
+    ![alt 属性文本]\(图片地址)
+    ![alt 属性文本]\(图片地址 "可选标题")
     
 > ![背景图片](https://desk-fd.zol-img.com.cn/t_s1920x1080c5/g5/M00/02/02/ChMkJ1bKxXKINmaMACMkdGofwOEAALHWAHFrGQAIySM530.jpg "动漫")  
 >> 也可以使用变量，和高级链接一样的方法  
