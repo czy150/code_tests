@@ -119,9 +119,9 @@ start.add_paths({'west':west, 'down': down})
 > 和处在 HTML 区块标签间不同，Markdown 语法在 HTML 区段标签间是有效的。
 
 ## 空行和空格
-&emsp;&emsp;使用/&emsp;可以空一个中文字符
+&emsp;&emsp;使用&emsp/;可以空一个中文字符  
 &nbsp;
-使用/&nbsp可以空一行
+使用/&nbsp;可以空一行
 
 
 [^1]: 脚注是这样标记的，可以把光标移到上面。
