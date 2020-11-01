@@ -118,6 +118,11 @@ start.add_paths({'west':west, 'down': down})
 > 目前支持的 HTML 元素有：`<kbd> <b> <i> <em> <sup> <sub> <br>`等  
 > 和处在 HTML 区块标签间不同，Markdown 语法在 HTML 区段标签间是有效的。
 
+## 空行和空格
+&emsp;&emsp;使用/&emsp;可以空一个中文字符
+&nbsp;
+使用/&nbsp可以空一行
+
 
 [^1]: 脚注是这样标记的，可以把光标移到上面。
 [2]: https://github.com/czy150
